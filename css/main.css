@@ -57,12 +57,13 @@ img {
 }
 
 a {
-  color: #373B47;
+  
   text-decoration: none;
 }
 
 a:hover {
   color: #E95853;
+  cursor: pointer;
 }
 
 .text-uppercase {
@@ -71,3 +72,187 @@ a:hover {
 
 /*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
 
+body, html {
+  font-family: 'Raleway', sans-serif;
+}
+
+#menu {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+}
+
+ul {
+  margin-top: 0;
+  padding-left: 145px;
+  padding-right: 145px;
+  list-style: none;
+  text-transform: uppercase;
+  font-weight: bold;
+
+}
+
+li {
+  float: left;
+  line-height: 100px;
+  display: inline-block;
+  text-align: center;
+  
+}
+
+#logo {
+  float: right;
+}
+
+#logoimg {
+  max-height: 70px;
+}
+
+li a {
+  color: #373B47;
+  display: block;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+#section1 {
+  margin-top: 85px;
+  height: 540px;
+  width: 100%;
+  text-align: center;
+  background-image: url(../assets/images/bg-home.jpg);
+  background-size: cover;
+  background-position: center;
+  
+}
+
+#box-one {
+  padding-top: 80px;
+  display: inline-block;
+  text-transform: uppercase;
+  color: white;
+}
+
+#section1 a {
+  display: inline-block;
+  background-color: #2ECC71;
+  padding: 10px 15px 10px;
+  font-size: 14px;
+}
+
+#section1 h1 {
+  font-size: 50px;
+  margin-bottom: 0;
+}
+
+#section1 p {
+  margin-top: 0;
+  margin-bottom: 85px;
+}
+
+#section2 {
+  margin-top: 0;
+  color: white;
+  background-color: #F17C72;
+  text-align: center;
+}
+
+#box-two {
+  display: inline-block;
+  text-align: center;
+  margin-top: 85px;
+  margin-bottom: 75px;
+}
+
+#box-two h2, #box-two h5 {
+  text-transform: uppercase;
+}
+
+#box-two h2 {
+  font-size: 35px;
+}
+#box-two div {
+  margin: auto;
+  float: left;
+  margin-top: 45px;
+  padding: 0 75px 0;
+}
+
+#box-two img {
+  max-width: 200px;
+  margin-bottom: 25px;
+}
+
+#box-two h4 {
+  margin-bottom: 45px;
+}
+
+#box-two h6, h5 {
+  margin: 0px;
+}
+
+#section3 {
+  background-color: white;
+  margin-top: 0;
+  text-align: center;
+}
+
+#box-three {
+  margin-top: 85px;
+  display: inline-block;
+}
+
+#box-three h2 {
+  text-transform: uppercase;
+  font-size: 35px;
+}
+
+#box-three h4 {
+  color: #424242;
+  margin-bottom: 25px;
+}
+
+#hero {
+  max-width: 860px;
+  margin: 25px 0 15px 0;
+}
+
+#box-four{
+  width: 1110px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.table img:not(#hero) {
+  max-width: 300px;
+}
+
+.table {
+  float: left;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #424242;
+  margin: 5px 35px 0;
+}
+
+.table p {
+  margin-top: 30px;
+  margin-bottom: 90px;
+}
+
+footer {
+  margin-top: 30px;
+  clear: left;
+  line-height: 70px;
+  background-color: #373B47;
+  color: white;
+  text-align: center;
+}
+footer p {
+  padding: 0;
+  margin: 0;
+}
+img:hover {
+  cursor: pointer;
+}
